@@ -4,23 +4,23 @@ html{
 	color:black;
 }
 img{
-    align-self:center;
+    align-items:center;
     border:groove;
     box-shadow:10px;
 
 }
 h1{
-    align-self:center;
+    text-align:center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:medium;
 
 }
 p1{
-    align-self:center;
+    text-align:center;
     font-size:smaller;
 }
 div2{
-    align-self:center;
+    text-align:center;
     margin-top:5px;
 }
 
