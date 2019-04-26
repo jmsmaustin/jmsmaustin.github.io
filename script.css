@@ -3,25 +3,28 @@ html{
 	font-size:20px;
 	color:black;
 }
-img{
-    align-items:center;
-    border:groove;
-    box-shadow:10px;
+.center{
+   margin-left:auto;
+   margin-right:auto;
+   width:50%;
+   box-shadow:50px
 
 }
-h1{
-    text-align:center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:medium;
-
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
 }
 p1{
-    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
     font-size:smaller;
 }
-div2{
-    text-align:center;
-    margin-top:5px;
+div2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
 }
 
 
