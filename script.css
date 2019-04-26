@@ -1,9 +1,27 @@
 html{
-	background-color:lightslategrey;
+	background-color:darkgray;
 	font-size:20px;
 	color:black;
 }
-nav{
+img{
+    align-content:center;
+    border:groove;
+    box-shadow:10px;
 
 }
+h1{
+    align-content:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:medium;
+
+}
+p1{
+    align-content:center;
+    font-size:smaller;
+}
+div2{
+    align-content:center;
+    margin-top:5px;
+}
+
 
