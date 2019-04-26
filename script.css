@@ -6,6 +6,10 @@ html{
 nav{
 
 }
+body {
+    margin: 0;
+    font-family: Arial, Black, sans-serif;
+}
 .topnav {
    overflow:hidden;
    background-color:mintcream;
@@ -18,4 +22,8 @@ nav{
         text-decoration: solid;
         font-size: 17px;
         background-color: firebrick;
+    }
+    .topnav a.active {
+        background-color: #4CAF50;
+        color: red;
     }
