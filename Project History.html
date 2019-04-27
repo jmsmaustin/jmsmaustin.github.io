@@ -4,14 +4,51 @@
 <head>
     <meta charset="utf-8" />
     <title>Project History</title>
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: Arial, Black, sans-serif;
+            background-color: darkgray
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: firebrick;
+        }
+
+            .topnav a {
+                align-items: center;
+                float: left;
+                color: mintcream;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: solid;
+                font-size: 17px;
+                background-color: firebrick;
+            }
+
+                .topnav a.active {
+                    background-color: firebrick;
+                    color: mintcream;
+                }
+    
+    </style>
 </head>
 <body>
-    
+    <div class="topnav">
+        <a class="active" href="#">Home</a>
+        <a href="jmsmaustin.github.io/About">About</a>
+        <a href="jmsmaustin.github.io/Project History">Projects</a>
+        <a href="jmsmaustin.github.io/Skill Set">Skill Set</a>
+        <a href="jmsmaustin.github.io/Employment History">Employment History</a>
+    </div>
     <h1>Projects</h1>
     <h2>List of Projects</h2>
-     <p2>Packwood Ski Company: Assessed a customer's demand for a database solution to the customer's inventory and customer logs. Went through processes of conceptual and logical design, normalization, and impelementation into a working database.</p2>
-        <p3>Uno! Game Design: Analyzed the rules of Uno! and converted it into a computer game.</p3>
-    <p4>Personal Website: Designed a resume website for myself using HTML, CSS, and JavaScript.</p4>
-
+    <ul class="list">
+        <li>Packwood Ski Company: Assessed a customer's demand for a database solution to the customer's inventory and customer logs. Went through processes of conceptual and logical design, normalization, and impelementation into a working database.</li>
+        <li>Uno! Game Design: Analyzed the rules of Uno! and converted it into a computer game.</li>
+        <li>Personal Website: Designed a resume website for myself using HTML, CSS, and JavaScript.</li>
+    </ul>
 </body>
 </html>
