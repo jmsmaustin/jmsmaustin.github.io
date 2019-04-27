@@ -13,6 +13,7 @@ img {
 }
 
 h1 {
+    display:block;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -23,12 +24,14 @@ p {
 }
 
 p1 {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     font-size: smaller;
 }
 
 div2 {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
