@@ -13,9 +13,7 @@ img {
 }
 
 h1 {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
+   text-anchor:middle;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -24,15 +22,11 @@ p {
 }
 
 p1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+   text-anchor:middle;
     font-size: smaller;
 }
 
 div2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-anchor:middle;
     margin-top: 5px;
 }
